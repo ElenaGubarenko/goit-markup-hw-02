@@ -35,6 +35,10 @@ body {
   text-decoration: none;
 }
 
+.black-background {
+  color: var(--white-color);
+}
+
 .logo-web {
   color: var(--blue-color);
 }
@@ -42,7 +46,9 @@ body {
 .link {
   text-decoration: none;
 }
+
 .nav-link {
+  font-size: 14px;
   color: var(--black-color);
   font-weight: 500;
   line-height: 1.1;
@@ -60,6 +66,7 @@ body {
 }
 
 .contact-link {
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -77,6 +84,7 @@ body {
   color: var(--white-color);
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero {
   background-color: #2f303a;
@@ -99,6 +107,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advantage-text {
